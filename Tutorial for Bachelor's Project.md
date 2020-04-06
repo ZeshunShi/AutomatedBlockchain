@@ -1,5 +1,17 @@
 # Tutorial for Bachelor's Project
-@[TOC]
+
+Table of Contents
+=================
+
+- [Tutorial for Bachelor's Project](#tutorial-for-bachelor-s-project)
+  * [Build your Cloud virtualized environment](#build-your-cloud-virtualized-environment)
+    + [Amazon EC2](#amazon-ec2)
+    + [ExoGENI](#exogeni)
+  * [Deploy and benchmark a permissioned blockchain (Hyperledger Sawtooth)](#deploy-and-benchmark-a-permissioned-blockchain--hyperledger-sawtooth-)
+    + [Introduction](#introduction)
+    + [Architecture](#architecture)
+    + [Deployment](#deployment)
+  * [Exercise](#exercise)
 
 This is a tutorial doc for the bachelor's student project "Automated permissioned blockchain performance profiling". The purpose of this document is to help you get familiar with the basics of cloud virtualized environment and permissioned blockchain quickly: 
 
