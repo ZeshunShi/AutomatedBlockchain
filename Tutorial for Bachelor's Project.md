@@ -6,6 +6,7 @@ This is a tutorial doc for the bachelor's student project "Automated permissione
 
 1. Learn how to build your Cloud virtualized environment. 
 2. Learn how to deploy and benchmark a permissioned blockchain network (Hyperledger Sawtooth).
+
 =================
 Table of Contents
 =================
