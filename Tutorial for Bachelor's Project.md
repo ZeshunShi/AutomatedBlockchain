@@ -1,4 +1,4 @@
-# Blockchain performance profiling
+# Blockchain Performance Profiling
 
 This is a tutorial doc for the project "Automated permissioned blockchain performance profiling". The purpose of this doc is to help you get familiar with the basics of cloud virtualized environment and permissioned blockchain quickly: 
 
