@@ -9,7 +9,7 @@ This is a tutorial doc for the bachelor's student project "Automated permissione
 ## Build your Cloud virtualized environment
 
 ### Amazon EC2 
-[Getting Started with Amazon EC2] (https://aws.amazon.com/ec2/getting-started/)
+[Getting Started with Amazon EC2](https://aws.amazon.com/ec2/getting-started/)
 The new account has a free tier for 200 hours. However, a credit card is needed.
 ### ExoGENI
 [ExoGENI: Getting Started Tutorial](http://www.exogeni.net/2015/09/exogeni-getting-started-tutorial/)
@@ -17,7 +17,7 @@ Tip: Free to use. When applying for an account, choose the organization name wit
 
 
 You can also try other Cloud providers like:
-- [Microsoft Azure ](https://azure.microsoft.com/en-gb/)
+- [Microsoft Azure](https://azure.microsoft.com/en-gb/)
 - [Google Cloud](https://cloud.google.com/)
 - [Alibaba](https://us.alibabacloud.com/)
 
