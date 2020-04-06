@@ -1,8 +1,6 @@
-# Tutorial for Bachelor's Project
+# Blockchain performance profiling
 
-
-
-This is a tutorial doc for the bachelor's student project "Automated permissioned blockchain performance profiling". The purpose of this document is to help you get familiar with the basics of cloud virtualized environment and permissioned blockchain quickly: 
+This is a tutorial doc for the project "Automated permissioned blockchain performance profiling". The purpose of this doc is to help you get familiar with the basics of cloud virtualized environment and permissioned blockchain quickly: 
 
 1. Learn how to build your Cloud virtualized environment. 
 2. Learn how to deploy and benchmark a permissioned blockchain network (Hyperledger Sawtooth).
