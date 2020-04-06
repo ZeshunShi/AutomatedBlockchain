@@ -1,5 +1,5 @@
 # Tutorial for Bachelor's Project
-[toc]
+@[TOC]
 
 This is a tutorial doc for the bachelor's student project "Automated permissioned blockchain performance profiling". The purpose of this document is to help you get familiar with the basics of cloud virtualized environment and permissioned blockchain quickly: 
 
@@ -22,7 +22,7 @@ You can also try other Cloud providers like:
 - [Alibaba](https://us.alibabacloud.com/)
 
 ## Deploy and benchmark a permissioned blockchain (Hyperledger Sawtooth)
-###Introduction 
+### Introduction 
 ![-c400](media/15860253145941/15861161798890.jpg)
 
 Sawtooth was started as a research project of Inter lab in 2014 (Sawtooth Lake). It was donated to Linux foundation in 2016. It’s an enterprise blockchain which aims to provide privacy, security, and scalability service. Characteristics:
