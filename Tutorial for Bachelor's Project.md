@@ -272,7 +272,7 @@ User:lrdata
 Password:test
 ```
 
-Go to node0 and submit a transaction request with [intkey] (https://sawtooth.hyperledger.org/docs/core/releases/1.0/cli/intkey.html) transaction processor. The following command indicates that the workload is generated at the input rate of 10tps, it is displayed in the terminal every 10s, and the total execution time is 60 seconds. From the Grafana dashboard we can see that the block number, block committed, committed transaction tab has changed corresponding.
+Go to node0 and submit a transaction request with [intkey](https://sawtooth.hyperledger.org/docs/core/releases/1.0/cli/intkey.html) transaction processor. The following command indicates that the workload is generated at the input rate of 10tps, it is displayed in the terminal every 10s, and the total execution time is 60 seconds. From the Grafana dashboard we can see that the block number, block committed, committed transaction tab has changed corresponding.
 
 
 `timeout 60 intkey workload --rate 10 -d 10`
