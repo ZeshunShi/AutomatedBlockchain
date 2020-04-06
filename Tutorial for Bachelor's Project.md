@@ -1,5 +1,12 @@
 # Tutorial for Bachelor's Project
 
+
+
+This is a tutorial doc for the bachelor's student project "Automated permissioned blockchain performance profiling". The purpose of this document is to help you get familiar with the basics of cloud virtualized environment and permissioned blockchain quickly: 
+
+1. Learn how to build your Cloud virtualized environment. 
+2. Learn how to deploy and benchmark a permissioned blockchain network (Hyperledger Sawtooth).
+=================
 Table of Contents
 =================
 
@@ -12,11 +19,6 @@ Table of Contents
     + [Architecture](#architecture)
     + [Deployment](#deployment)
   * [Exercise](#exercise)
-
-This is a tutorial doc for the bachelor's student project "Automated permissioned blockchain performance profiling". The purpose of this document is to help you get familiar with the basics of cloud virtualized environment and permissioned blockchain quickly: 
-
-1. Learn how to build your Cloud virtualized environment. 
-2. Learn how to deploy and benchmark a permissioned blockchain network (Hyperledger Sawtooth).
 
 ## Build your Cloud virtualized environment
 
@@ -48,11 +50,11 @@ Sawtooth was started as a research project of Inter lab in 2014 (Sawtooth Lake).
 When we build a Hyperledger Sawtooth blockchain network, what do we have?
 - The architecture is really simple, basically we have `clients`, `transaction processors`, and `validators`. The client could take several forms, CLIs, GUIs, web-based or browser apps, etc. It created transactions and submit them to the validator nodes. It also just read the values of some state. e.g., Blockchain global state. 
 - There are clients, they need to talk to servers. Actually in sawtooth the servers called transaction processors, it's like a clients-servers model. The validator is used to communicate with the clients and transaction processors. 
-- Transaction processors were used to capsulate different kinds of business logic. it‘s kind of like the notion of  `Smart Contract` in Ethereum and `chain code` in Hyperledger fabric. For example, if you want to use Sawtooth blockchain in a fishing industry scenario, you need to write a fishing transaction processor which include all rules of transactions in your applications.
+- Transaction processors were used to capsulate different kinds of business logic. it‘s kind of like the notion of `Smart Contract` in Ethereum and `chain code` in Hyperledger fabric. For example, if you want to use Sawtooth blockchain in a fishing industry scenario, you need to write a fishing transaction processor which include all rules of transactions in your applications.
 
 ![](media/15860253145941/15861163834233.jpg)
-The client needs to talk to the underlying blockchain network go through a REST service. Validators manage the global state of the blockchain together with other Validators through a P2P network. As you can see from the left bottom of the picture. You use use your favourite programming language to develop your own transaction processors and clients.
 
+The client needs to talk to the underlying blockchain network go through a REST service. Validators manage the global state of the blockchain together with other Validators through a P2P network. As you can see from the left bottom of the picture. You use use your favourite programming language to develop your own transaction processors and clients.
 
 ![](media/15860253145941/15861163137414.jpg)
 
@@ -271,12 +273,12 @@ Configure InfludDB Data Source
 
 ![](media/15860253145941/15861241054922.jpg)
 
-HTTP settings tab
+HTTP settings tab:
 `URL: http://192.168.10.5:8086`
 ![](media/15860253145941/15861241853658.jpg)
 
 
-InfluxDB Details
+InfluxDB Details:
 
 ```
 Database:metrics
