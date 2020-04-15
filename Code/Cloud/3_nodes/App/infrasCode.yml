@@ -1,0 +1,7 @@
+Mode: "CTRL" # or CTRL
+InfrasCodes: 
+- CodeType: "SEQ"
+  OpCode:
+    Operation: "provision"
+    ObjectType: SubTopology
+    Objects: "clusterOfVMs"

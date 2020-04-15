@@ -1,0 +1,21 @@
+---
+userName: "huan"
+publicKeyPath: "name@test.pub"
+topologies:
+- topology: "clusterOfVMs"
+  cloudProvider: "EC2"
+  domain: "California"
+connections:
+subnets:
+- name: "s1"
+  subnet: "192.168.10.0"
+  netmask: "24"
+  members:
+  - vmName: "clusterOfVMs.Monitor"
+    address: "192.168.10.5"
+  - vmName: "clusterOfVMs.Node0"
+    address: "192.168.10.10"
+  - vmName: "clusterOfVMs.Node1"
+    address: "192.168.10.11"
+  - vmName: "clusterOfVMs.Node2"
+    address: "192.168.10.12"

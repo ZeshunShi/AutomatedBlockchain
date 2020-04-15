@@ -1,0 +1,23 @@
+---
+extraInfo:
+VMs:
+- name: "Node0"
+  nodeType: "t2.micro"
+  OStype: "Ubuntu 16.04"
+  defaultSSHAccount: "ubuntu"
+  script: "name@Node0.sh"
+- name: "Node1"
+  nodeType: "t2.micro"
+  OStype: "Ubuntu 16.04"
+  defaultSSHAccount: "ubuntu"
+  script: "name@Node1.sh"
+- name: "Node2"
+  nodeType: "t2.micro"
+  OStype: "Ubuntu 16.04"
+  defaultSSHAccount: "ubuntu"
+  script: "name@Node2.sh"
+- name: "Monitor"
+  nodeType: "t2.micro"
+  OStype: "Ubuntu 16.04"
+  defaultSSHAccount: "ubuntu"
+  script: "name@influxdb.sh"
