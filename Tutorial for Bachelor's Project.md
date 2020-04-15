@@ -17,6 +17,13 @@ Table of Contents
     + [Architecture](#architecture)
     + [Deployment](#deployment)
   * [Exercise](#exercise)
+  * [Automated Blockchain Deployment on Clouds](#automated-blockchain-deployment-on-clouds)
+    + [ExoGENI](#exogeni-1)
+      - [Flukes(optional)](#flukes-optional-)
+      - [Generate your jks for Cloudsstorm.](#generate-your-jks-for-cloudsstorm)
+    + [Amazon EC2](#amazon-ec2-1)
+    + [Cloudsstorm](#cloudsstorm)
+  * [Next step:](#next-step-)
 
 ## Build your Cloud virtualized environment
 
@@ -465,7 +472,7 @@ Monitor_125741983063931_script.log
 
 
 ## Next step:
-- Try to finish the automation workflow of other blockchain platforms. (Test bash script file, recommend Fabric)
-- Try to deploy the same blockchain network with different `Cloud Provider`, `Datacenter`, `Instance Type`, `Bandwidth`.
-- Benchmark and compare their performance.
+- Try to finish the automation workflow of other blockchain platforms e.g. Fabric, Iroha, Besu. (Test the deployment bash script file)
+- Try to deploy the same blockchain network with different situations: `Cloud Provider`, `Datacenter`, `Instance Type`, `Bandwidth`.
+- Benchmark and compare the performance.
 
