@@ -1,0 +1,25 @@
+{
+  "caliper": {  
+    "blockchain": "iroha",
+    "command" : {
+      "start": "echo you must run it manually",
+      "end" : "echo you must clean it manually"
+    }
+  },
+  "iroha": {
+    "admin" :{
+      "account":"admin",
+      "domain" : "test",
+      "key-pub":"network/iroha/iroha-30-validators/admin@test.pub",
+      "key-priv":"network/iroha/iroha-30-validators/admin@test.priv"
+    },
+    "network": {
+      "node0": {
+        "torii": "localhost:50000"
+      }
+    },
+    "fakecontract": [
+      {"factory": "src/contract/iroha/simple/factory.js", "id":["simple"]}
+    ]
+  }
+}
