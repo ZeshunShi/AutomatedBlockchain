@@ -23,9 +23,9 @@ A good cheatsheet which you can keep an hands to facilitate query related concep
 
 Solidity's official online IDE, which is very popular in the Solidity community.
 
-Another online IDE which provides front-end programming examples.
-
 - [Ethereum Studio](https://studio.ethereum.org)
+
+Another online IDE which provides front-end programming examples.
 
 ## Solidity Visualization
 - [Piet](https://piet.slock.it/#)
