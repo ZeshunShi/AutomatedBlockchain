@@ -8,6 +8,7 @@ multipass launch --name monitor 16.04
 // start consensus protocal and genesis block on node0
 sawset genesis --key /etc/sawtooth/keys/validator.priv -o config-genesis.batch
 
+cat /etc/sawtooth/keys/validator.pub
 
 sawset proposal create --key /etc/sawtooth/keys/validator.priv -o config-consensus.batch sawtooth.consensus.algorithm.name=raft sawtooth.consensus.algorithm.version=0.1.1 sawtooth.consensus.raft.peers=[\"02edb7c28f93cef054ecfeca145a4781183862b0e68a67ca9a8375819cb1ef3c63\",\"0283ea2064b2a0023fadceb9ccf12727bb3bea6e9a920a893fde880f3a53ded7e3\",\"03dae9d25d3926fe520522441466e207a7937ff49e1924ec59e234cb038280e34d\"]
 sawset proposal create --key /etc/sawtooth/keys/validator.priv -o raft-settings.batch sawtooth.consensus.raft.heartbeat_tick=2 sawtooth.consensus.raft.election_tick=20 sawtooth.consensus.raft.period=3500
