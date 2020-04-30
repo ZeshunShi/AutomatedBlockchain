@@ -10,7 +10,7 @@ sawset genesis --key /etc/sawtooth/keys/validator.priv -o config-genesis.batch
 
 cat /etc/sawtooth/keys/validator.pub
 
-sawset proposal create --key /etc/sawtooth/keys/validator.priv -o config-consensus.batch sawtooth.consensus.algorithm.name=raft sawtooth.consensus.algorithm.version=0.1.1 sawtooth.consensus.raft.peers=[\"02edb7c28f93cef054ecfeca145a4781183862b0e68a67ca9a8375819cb1ef3c63\",\"0283ea2064b2a0023fadceb9ccf12727bb3bea6e9a920a893fde880f3a53ded7e3\",\"03dae9d25d3926fe520522441466e207a7937ff49e1924ec59e234cb038280e34d\"]
+sawset proposal create --key /etc/sawtooth/keys/validator.priv -o config-consensus.batch sawtooth.consensus.algorithm.name=raft sawtooth.consensus.algorithm.version=0.1.1 sawtooth.consensus.raft.peers=[\"02ec5efaa22a329c48a460f9ec0bf110b3a60f80eb494ea81d9c4be06316eb4b3a\",\"0335fe5c3b8b9cecfc3407e91aace4c9f1e7c92c35eddd53563eb4000463a87bfe\",\"025615ee7e788de66cdd568c28a3ecd7a091ed9dc3b573d05df6ac440c3cafcf8c\"]
 sawset proposal create --key /etc/sawtooth/keys/validator.priv -o raft-settings.batch sawtooth.consensus.raft.heartbeat_tick=2 sawtooth.consensus.raft.election_tick=20 sawtooth.consensus.raft.period=3500
 sawadm genesis config-genesis.batch config-consensus.batch raft-settings.batch
 
